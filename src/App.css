@@ -1,0 +1,102 @@
+html, body, #root { height: 100%; width: 100%; margin: 0; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+  background: rgb(255,163,154);
+  background: linear-gradient(145deg, rgba(255,163,154,1) 0%, rgb(250, 123, 104) 100%);
+}
+
+.calculator-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:95%;
+  width:360px;
+  background-color: #ffb3aa;
+  border-radius:15px;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  height:90%;
+  width:86%;
+  color: white;
+  background: rgb(60,60,142);
+  background: linear-gradient(145deg, rgba(40, 81, 142, 1) 0%, rgba(58, 119, 209, 1) 100%);
+  box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.44);
+  border-radius:15px;
+  box-sizing: border-box;
+  padding: 15% 5% 10%;
+}
+
+.inputBox {
+  border:none;
+  background-color: rgba(99, 136, 255, 0);
+  outline: none;
+  color: white;
+  text-align: right;
+  font-size:135%;
+}
+
+.result {
+  height: 30px;
+  border-bottom: 1px solid white;
+  text-align: right;
+  font-size:28px;
+  font-weight: bold;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-bottom:5%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-grow:1;
+}
+
+.calculatorButtons {
+  border:none;
+  border-radius: 50%;
+  color: white;
+  font-size:135%;
+  background-color: rgba(99, 136, 255, 0);
+}
+
+.equals {
+  border:none;
+  border-radius: 50%;
+  color: rgba(43, 88, 154, 1);
+  font-size:150%;
+  background-color: rgb(245, 245, 255);
+}
+@media (any-hover: hover) {
+  .calculatorButtons:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.12);
+    transition: background-color 0.1s linear;
+  }
+
+  .equals:hover {
+    cursor: pointer;
+    background-color: rgba(77, 75, 213, 0.65);
+    transition: background-color 0.1s linear;
+    color: aliceblue;
+  }
+}
+
+.equals:active {
+    background-color: rgba(77, 75, 213, 0.65);
+  transition: background-color 0.2s linear;
+  color: aliceblue;
+}
+
+.calculatorButtons:active {
+  background-color: rgba(255, 255, 255, 0.12);
+  transition: background-color 0.2s linear;
+}
+
