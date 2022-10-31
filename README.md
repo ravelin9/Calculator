@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/106379372/198900389-905481e4-9a47-4124-97d5-26de49b9d09f.png)
 
 
-[Ссылка на проект](https://calculator-mjtv83vpg-ravelin9.vercel.app/)
+[Ссылка на проект](https://calculator-ravelin9.vercel.app/)
 
 NodeJS v.16.18
 
