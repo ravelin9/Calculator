@@ -13,8 +13,8 @@ html, body, #root { height: 100%; width: 100%; margin: 0; }
   display: flex;
   align-items: center;
   justify-content: center;
-  height:95%;
-  width:360px;
+  height:91vh;
+  width:58vh;
   background-color: #ffb3aa;
   border-radius:15px;
 }
